@@ -141,3 +141,13 @@ def route_top_duration_mean():
 ```
 
 ![](./asset_readme/caps-das-05-post-trips-top-duration-mean.gif)
+
+---
+
+#### Kekurangan / TO-DO LIST
+
+- penggunaan nama fungsi yang masih dibilang kurang singkat dan jelas. Seperti fungsi `top_subscriber()` yang sebaiknya menjadi `top_subscribers_type()`.
+- endpoint harusnya menggunakan dash `-` dibandingkan `_`. Info: [Hyphen, underscore, or camelCase as word delimiter in URIs?](https://stackoverflow.com/questions/10302179/hyphen-underscore-or-camelcase-as-word-delimiter-in-uris)
+- pada endpoint `/trips/top_duration_mean`, seharusnya jangan menggunakan _unpacking_ dictionary pada fungsinya, untuk menghindari _error_ ketika menerima _keyword_ yang tidak ada.
+- memisahkan _logic function_ ke file yang berbeda. 
+- refactor kode. 🤣
