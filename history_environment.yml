@@ -1,0 +1,12 @@
+name: bikeapi38
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - flask
+  - pandas
+  - tqdm
+  - ipykernel
+  - requests
+  - flake8
+  - black
