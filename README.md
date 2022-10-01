@@ -101,7 +101,7 @@ def route_top_days_start_in_station(station_id):
 
 ### 6 [3] Created POST endpoint which receive input data, then utilize it to get analytical result (must be different from point 2,3,4,5)
 
-- Mengirimkan informasi `subscriber_type` dan bulan (dalam bentuk angka `00`) dan memperoleh informasi daftar informasi jumlah penggunaan _bike_, rata-rata + median + maksimum durasi penggunaan _bike_ yang diagregasi setiap tahun dan hari Senin-Minggu, 
+- Mengirimkan informasi `subscriber_type` dan bulan (dalam bentuk angka `00`) dan memperoleh informasi daftar informasi jumlah penggunaan _bike_, rata-rata + median + maksimum durasi penggunaan _bike_ yang diagregasi setiap tahun dan hari Senin-Minggu. RETURN: JSON (dari `DataFrame`).
 
 ```python
 def top_duration_mean(subscriber_type, month_number, conn):
