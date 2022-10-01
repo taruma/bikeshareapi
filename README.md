@@ -9,7 +9,7 @@ Pengaturan environment dapat menggunakan `environment.yml` (mengutamakan channel
 - Install langsung menggunakan conda
 
 ```bash
-conda env create -f "https://github.com/taruma/bikeshareapi/blob/main/environment.yml?raw=true"
+conda env create -f "https://raw.githubusercontent.com/taruma/bikeshareapi/main/environment.yml"
 ```
 
 ## TEST FOR RUBRIC
