@@ -150,4 +150,6 @@ def route_top_duration_mean():
 - endpoint harusnya menggunakan dash `-` dibandingkan `_`. Info: [Hyphen, underscore, or camelCase as word delimiter in URIs?](https://stackoverflow.com/questions/10302179/hyphen-underscore-or-camelcase-as-word-delimiter-in-uris)
 - pada endpoint `/trips/top_duration_mean`, seharusnya jangan menggunakan _unpacking_ dictionary pada fungsinya, untuk menghindari _error_ ketika menerima _keyword_ yang tidak ada.
 - memisahkan _logic function_ ke file yang berbeda. 
+- validasi data sebelum diproses. (data yang hilang, dlsbnya).
+- untuk operasi `count` seharusnya mengacu pada `bikeid`. 
 - refactor kode. 🤣
