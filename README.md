@@ -152,4 +152,5 @@ def route_top_duration_mean():
 - memisahkan _logic function_ ke file yang berbeda. 
 - validasi data sebelum diproses. (data yang hilang, dlsbnya).
 - untuk operasi `count` seharusnya mengacu pada `bikeid`. 
+- single output endpoint, jadi endpointnya mengeluarkan nilai, bukan `dataframe.to_json()`.
 - refactor kode. 🤣
